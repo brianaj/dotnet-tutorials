@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace CityInfo.API.Models
 {
-    public class PointOfInterestCreation
+    public class PointOfInterestUpdate
     {
         [Required(ErrorMessage = "You should provide a name value.")]
         [MaxLength(50)]
